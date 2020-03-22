@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from "react"
+import React, { Component } from "react"
 import { Card, CardContent, CardMedia, Grid} from "@material-ui/core"
 import Image from 'material-ui-image'
 
@@ -6,7 +6,7 @@ import Image from 'material-ui-image'
 export default class Gallery extends Component {
     render() {
         return (
-            <Fragment>
+            <>
                 <Grid container justify="end" spacing={3}>
                     <Grid item md={3}>
                         <Card>
@@ -33,7 +33,7 @@ export default class Gallery extends Component {
                         </Card>
                     </Grid>
                 </Grid>
-            </Fragment>
+            </>
 
         )
     }
