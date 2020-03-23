@@ -13,6 +13,7 @@
     "material-ui-image": "^3.2.3",
     "react": "^16.13.0",
     "react-confetti": "^5.0.1",
+    "react-countup": "^4.3.3",
     "react-dom": "^16.13.0",
     "react-helmet": "^5.2.1",
     "react-scripts": "3.4.0"
