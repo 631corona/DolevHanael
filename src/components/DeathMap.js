@@ -1,8 +1,6 @@
-import React, { Component, Fragment } from 'react'
+import React from 'react'
 import countries from "../world_countries.json";
 import { ResponsiveChoropleth } from '@nivo/geo'
-import data from '../data';
-import { Typography } from '@material-ui/core';
 
 
 export default function DeathMap(props) {

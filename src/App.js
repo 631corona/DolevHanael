@@ -1,4 +1,4 @@
-import React, { useState, useEffect, Fragment } from 'react';
+import React, { useState, useEffect } from 'react';
 import Confetti from 'react-confetti';
 import { Button, makeStyles } from '@material-ui/core';
 import Header from './components/Header'
@@ -10,7 +10,7 @@ import countryISOMapping from 'country-iso-2-to-3'
 const useStyles = makeStyles({
   root: {
     background: '#1b262c',
-    
+
   }
 })
 export default function App() {
